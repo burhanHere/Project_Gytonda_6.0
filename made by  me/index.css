@@ -1,0 +1,79 @@
+.body__ {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.body_div {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border: 3px solid greenyellow;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.flee {
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    opacity: 80%;
+    border: 3px solid greenyellow;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 0%;
+    animation-name: flee_movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+}
+
+@keyframes flee_movement {
+    0% {
+        background-color: black;
+        border-radius: 2%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    17% {
+        background-color: rgb(163, 67, 67);
+        border-radius: 26%;
+        margin-top: 77vh;
+        margin-left: 23vw;
+    }
+    34% {
+        background-color: rgb(55, 41, 133);
+        border-radius: 38%;
+        margin-top: 0%;
+        margin-left: 45vw;
+    }
+    51% {
+        background-color: rgb(62, 212, 99);
+        border-radius: 48%;
+        margin-top: 77vh;
+        margin-left: 67vw;
+    }
+    68% {
+        background-color: rgb(216, 208, 136);
+        border-radius: 50%;
+        margin-top: 0%;
+        margin-left: 89vw;
+    }
+    85% {
+        background-color: rgb(51, 199, 199);
+        border-radius: 25%;
+        margin-top: 77vh;
+        margin-left: 0%;
+    }
+    100% {
+        background-color: rgb(145, 75, 211);
+        border-radius: 2%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+}
